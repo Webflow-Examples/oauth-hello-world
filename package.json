@@ -1,0 +1,20 @@
+{
+  "name": "oauth-hello-world",
+  "version": "1.0.0",
+  "description": "Get started with Webflow and OAuth with this simple App",
+  "main": "app/server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app/server.js",
+    "dev": "nodemon app/server.js"
+  },
+  "dependencies": {
+    "@fastify/static": "^6.5.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.9.2",
+    "webflow-api": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
