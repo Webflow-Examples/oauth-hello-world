@@ -866,7 +866,7 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-webflow-api@^1.2.3:
+webflow-api@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/webflow-api/-/webflow-api-1.2.2.tgz#b5547506f4132d7c1a610f70146a6ede4fe2d321"
   integrity sha512-OdARDzms39sLnu3j8Z6558/eUdDYVzjY/P6FfL+OXSxW5mTaLKpImddVhJZyBgtkxo8JZ7Bq6IHbfMd7eEr16g==
