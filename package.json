@@ -12,7 +12,7 @@
     "@fastify/static": "^6.5.0",
     "dotenv": "^16.0.3",
     "fastify": "^4.9.2",
-    "webflow-api": "^1.2.3"
+    "webflow-api": "^1.2.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
