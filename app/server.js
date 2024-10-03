@@ -49,7 +49,6 @@ fastify.post("/", async (request, reply) => {
     const app = new WebflowClient({
       accessToken: access_token
     });
-    //console.log(app.user());
     const user = await app.token.authorizedBy();
     
     reply.send(user);
