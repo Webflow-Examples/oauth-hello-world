@@ -13,6 +13,7 @@ function updateMessage({ firstName, lastName, email }) {
 function getUserInfo(code) {
   const method = "POST";
   const body = JSON.stringify({ code });
+  console.log(code);
   const headers = { "Content-Type": "application/json" };
   return fetch("/", { method, body, headers }).then((r) => r.json());
 }
